@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component
 
+This is orginal intro.--Ark-303
+
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
 ## Welcome! 👋
