@@ -10,6 +10,41 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      background-color: hsl(212, 45%, 89%);
+    }
+    
+    .container {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 15px;
+      max-width: 270px;
+      margin: 50px auto;
+      & img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      & #title {
+        width: 90%;
+        font-size: 18px;
+        font-weight: 800;
+        color: hsl(218, 44%, 22%);
+        text-align: center;
+        margin: 20px 0 20px;  
+      }
+      & #subtitle {
+        width: 90%;
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(216, 15%, 48%);
+        text-align: center;
+        margin: 0 0 30px;
+      }
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
@@ -18,7 +53,7 @@
   <div class="container">
     <img src="./images/image-qr-code.png" alt="QR code image">
 
-    <p id="title">Improve your front-end skills by building projects</p>
+    <h6 id="title">Improve your front-end skills by building projects</h6>
 
     <p id="subtitle">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
